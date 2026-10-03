@@ -1,0 +1,52 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Microsoft_365__outlook_email_search",
+      "mcp__Microsoft_365__read_resource",
+      "mcp__Microsoft_365__outlook_modify_labels",
+      "mcp__Microsoft_365__outlook_batch_modify_labels",
+      "mcp__Microsoft_365__outlook_create_reply_draft",
+      "mcp__Microsoft_365__outlook_create_reply_all_draft",
+      "mcp__Microsoft_365__outlook_update_draft",
+      "mcp__Microsoft_365__get_me",
+      "mcp__Microsoft_365__search_people",
+      "mcp__Klardaten_MCP__datev_describe",
+      "mcp__Klardaten_MCP__datev_accounting_list",
+      "mcp__Klardaten_MCP__datev_accounting_get",
+      "mcp__Klardaten_MCP__datev_master_data_list",
+      "mcp__Klardaten_MCP__datev_master_data_get",
+      "mcp__Klardaten_MCP__datev_dms_list",
+      "mcp__Klardaten_MCP__datev_dms_get",
+      "mcp__Klardaten_MCP__datev_order_management_list",
+      "mcp__Klardaten_MCP__datev_order_management_get",
+      "mcp__Klardaten_MCP__datev_payroll_list",
+      "mcp__Klardaten_MCP__datev_payroll_get",
+      "mcp__Klardaten_MCP__datev_lodas_payroll_list",
+      "mcp__Klardaten_MCP__datev_lodas_payroll_get",
+      "mcp__claude-code-remote__list_triggers",
+      "mcp__claude-code-remote__get_trigger",
+      "mcp__claude-code-remote__create_trigger",
+      "Artifact",
+      "ArtifactData",
+      "PushNotification",
+      "ToolSearch",
+      "WebSearch",
+      "WebFetch",
+      "Bash(date *)",
+      "Bash(TZ=Europe/Berlin date *)"
+    ],
+    "deny": [
+      "mcp__Microsoft_365__outlook_send_mail",
+      "mcp__Microsoft_365__outlook_send_draft",
+      "mcp__Microsoft_365__outlook_forward_mail",
+      "mcp__Microsoft_365__outlook_delete_draft",
+      "mcp__Microsoft_365__outlook_batch_delete_messages",
+      "mcp__Microsoft_365__outlook_trash_thread",
+      "mcp__Microsoft_365__teams_send_chat_message",
+      "mcp__Microsoft_365__teams_send_channel_message",
+      "mcp__Microsoft_365__teams_reply_channel_message",
+      "mcp__Microsoft_365__sharepoint_delete_item",
+      "mcp__Klardaten_MCP__datev_accounting_create_sequence"
+    ]
+  }
+}
